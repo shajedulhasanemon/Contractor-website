@@ -1,0 +1,544 @@
+/*================================
+Common CSS
+==================================*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.5em;
+    color: #555555;
+}
+a{
+    text-decoration: none;
+}
+.container {
+    max-width: 1170px;
+    margin: auto;
+    width: 96%;
+}
+section {
+    padding: 50px 0;
+}
+img {
+    width: 100%;
+    height: auto;
+}
+
+
+
+/*================================
+Header CSS
+==================================*/
+#nav_bar{
+    padding: 25px 0;
+    clear: both;
+    height: 32px;
+}
+.logo{
+    width: 200px;
+    float: left;
+    margin-top: 5px;
+}
+.logo a{
+    text-decoration: none;
+    color: #222A23;
+    font-size: 20px;
+    font-weight: 500;
+}
+.logo a span{
+    color: #FFBB02;
+}
+.menu_bar ul{
+    list-style: none;
+    width: 600px;
+    padding: 0;
+    margin: 0;
+    float: right;
+    text-align: right;
+}
+.menu_bar ul li{
+    display: inline-block;
+    margin: 0 5px;
+}
+.menu_bar ul li a{
+    list-style: none;
+    display: block;
+    padding: 5px 10px;
+    font-weight: 500;
+}
+.menu_bar ul li a:hover{
+    color: #FFBB02;
+}
+.menu_bar ul li:last-child a{
+    color: #fff;
+    background: #FFBB02;
+    border-radius: 5px;
+}
+
+/* Slider css */
+.slider_img {
+    background: linear-gradient(90deg,#020202d1,#2023207a),url(../image/slider.jpg);
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.slider_text{
+    color: #fff;
+    padding-top: 150px;
+    font-size: 20px;
+}
+.slider_text span{
+    display: block;
+    font-size: 50px;
+    color: #FFBB02;
+    font-weight: 700;
+    margin-top: 40px;
+}
+.sliderD{
+    width: 660px;
+    margin-top: 70px;
+    color: #fff;
+}
+.slider_btn{
+    padding: 13px 30px;
+    font-weight: 600;
+    color: #fff;
+    background: #FFBB02;
+    font-size: 15px;
+    border: none;
+    margin-top: 80px;
+    border-radius: 10px;
+    border: 2px solid #FFBB02;
+    cursor: pointer;
+}
+.slider_btn:hover{
+    background: #000;
+    color: #FFBB02;
+}
+
+
+
+/*================================
+About CSS
+==================================*/
+#about_section{
+    overflow: hidden;
+}
+.about_title {
+    font-size: 20px;
+    font-weight: 500;
+    width: 92px;
+    margin: auto;
+    border: 3px solid #ffbb02;
+    padding: 12px 40px;
+    border-radius: 10px;
+    color: #ffbb02;
+}
+.aboutD {
+    width: 700px;
+    margin: auto;
+    text-align: center;
+    margin-top: 40px;
+}
+.about_item {
+    margin-top: 50px;
+}
+.about_img {
+    width: 400px;
+    float: left;
+}
+.about_decripson {
+    width: 650px;
+    float: right;
+}
+h4.menu_decripson {
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 60px;
+}
+.about_decripson p {
+    margin-top: 15px;
+    line-height: 30px;
+}
+button.about_btn {
+    margin-top: 80px;
+    border: none;
+}
+.about_btn a{
+    padding: 13px 30px;
+    color: #fff;
+    background: #FFBB02;
+    font-size: 15px;
+    border: none;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+.about_btn a:hover {
+    background: #000;
+    color: #fff;
+}
+button.about_btn1 {
+    margin-top: 80px;
+    border: none;
+    margin-left: 30px;
+}
+.about_btn1 a{
+    padding: 13px 30px;
+    color: #fff;
+    background: #000;
+    font-size: 15px;
+    border: none;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+.about_btn1 a:hover {
+    background: #FFBB02;
+    color: #fff;
+}
+
+
+
+/*================================
+Services CSS
+==================================*/
+#services_section{
+    overflow: hidden;
+}
+.servicesTitle {
+    font-size: 20px;
+    font-weight: 500;
+    width: 92px;
+    margin: auto;
+    border: 3px solid #ffbb02;
+    padding: 12px 40px;
+    border-radius: 10px;
+    color: #ffbb02;
+}
+.services_description {
+    width: 700px;
+    margin: auto;
+    text-align: center;
+    margin-top: 40px;
+}
+.services_img {
+    width: 510px;
+    float: right;
+    margin-top: 50px;
+}
+.services_item {
+    width: 650px;
+    margin-top: 50px;
+    float: left;
+}
+.services_item_lest {
+    width: 270px;
+    padding: 12px 15px;
+    float: left;
+    margin: 10px 12px;
+    transition: 0.3s;
+}
+.services_item_lest:hover {
+    box-shadow: 0px 0px 14px -4px #cecece;
+}
+.services_icon {
+    width: 50px;
+    font-size: 40px;
+}
+.services_title {
+    font-size: 20px;
+    margin-top: 15px;
+    font-weight: 600;
+}
+.services_about {
+    font-size: 15px;
+    color: #5d5d5d;
+    margin-top: 15px;
+}
+
+
+
+/*================================
+Team CSS
+==================================*/
+#team_section{
+    overflow: hidden;
+}
+.team_title {
+    font-size: 20px;
+    font-weight: 500;
+    width: 60px;
+    margin: auto;
+    border: 3px solid #ffbb02;
+    padding: 12px 55px;
+    border-radius: 10px;
+    color: #ffbb02;
+}
+.team_description {
+    width: 700px;
+    margin: auto;
+    text-align: center;
+    margin-top: 40px;
+}
+.team_item {
+    margin-top: 50px;
+    display: inline-block;
+}
+.team_item_1 {
+    width: 280px;
+    float: left;
+    margin-right: 15px;
+    transition: 0.3s;
+}
+.team_item_1:last-child {
+    margin-right: 0px;
+}
+.team_item_1:hover {
+    box-shadow: 0px 0px 14px -4px #cecece;
+}
+.team_date {
+    margin-top: 15px;
+    font-size: 14px;
+    padding: 0px 12px;
+}
+.team_date a {
+    margin-left: 38px;
+    background: #ffbb02;
+    padding: 5px 20px;
+    border-radius: 4px;
+    color: #fff;
+    font-weight: 500;
+    display: inline-block;
+    transition: 0.3s;
+}
+.team_date a:hover {
+    background: #000;
+    color: #fff;
+}
+.team_item_description {
+    margin-top: 15px;
+    color: #616161;
+    padding: 0px 16px;
+    padding-bottom: 24px;
+}
+.arrow {
+    text-align: center;
+    margin-top: 35px;
+}
+span.arrow.\31 {
+    margin-right: 20px;
+    cursor: pointer;
+    background: #ffbb02;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 6px;
+    transition: 0.3s;
+}
+span.arrow.\32 {
+    margin-right: 20px;
+    cursor: pointer;
+    background: #ffbb02;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 6px;
+    transition: 0.3s;
+}
+span.arrow:hover{
+    background: #000;
+    color: #fff;
+}
+
+
+
+/*================================
+Blogs CSS
+==================================*/
+#blogs_section{
+    overflow: hidden;
+}
+.blogs_title {
+    font-size: 20px;
+    font-weight: 500;
+    width: 60px;
+    margin: auto;
+    border: 3px solid #ffbb02;
+    padding: 12px 55px;
+    border-radius: 10px;
+    color: #ffbb02;
+}
+.blogs_description {
+    width: 700px;
+    margin: auto;
+    text-align: center;
+    margin-top: 40px;
+}
+.blogs_item {
+    margin-top: 50px;
+    display: inline-block;
+}
+.blogs_item_lest {
+    width: 583px;
+    display: inline-block;
+    margin: 25px 0px;
+}
+.blogs_img {
+    float: left;
+    width: 290px;
+    margin-top: 10px;
+}
+.blogs_right_description {
+    float: right;
+    width: 275px;
+}
+.blogs_item_title {
+    font-size: 20px;
+    font-weight: 600;
+    border-bottom: 5px solid #ffbb02;
+    width: 180px;
+    padding-bottom: 10px;
+}
+.blogs_item_description {
+    margin-top: 15px;
+    color: #6b6b6b;
+}
+a.blogs_btn {
+    background: #ffbb02;
+    margin-top: 10px;
+    display: inline-block;
+    padding: 5px 15px;
+    color: #fff;
+    font-weight: 500;
+    border-radius: 4px;
+    transition: 0.3s;
+}
+a.blogs_btn:hover {
+    background: #000;
+    color: #fff;
+}
+
+
+
+/*================================
+Portfolio CSS
+==================================*/
+#portfolio_section{
+    background: linear-gradient(90deg,#000000d6,#000000d6), url(../image/portfolio.jpg);
+}
+.portfolio_title {
+    text-align: center;
+    font-size: 30px;
+    color: #fff;
+    font-weight: 600;
+    margin-top: 20px !important;
+    border-bottom: 5px solid #ffbb02;
+    width: 370px;
+    margin: auto;
+    padding-bottom: 20px;
+}
+.portfolio_description {
+    width: 700px;
+    text-align: center;
+    margin: 30px auto;
+    color: white;
+}
+.portfolio_icon a {
+    color: white;
+    font-size: 70px;
+    margin: auto;
+    width: 70px;
+    display: block;
+}
+.portfolio_icon {
+    text-align: center;
+}
+.portfolio_icon a:hover{
+    color: #FFBB02;
+}
+
+
+
+/*================================
+Footer CSS
+==================================*/
+#footer_sction{
+    padding: 50px 0;
+    background: #484848;
+    overflow: hidden;
+    height: 285px;
+}
+.footer_logo{
+    width: 350px;
+    float: left;
+}
+.footer_logo a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+}
+.footer_logo a span{
+    color: #FFBB02;
+}
+.footer_social {
+    width: 350px;
+    float: left;
+    margin-right: 35px;
+}
+.footer_social img {
+    width: 150px;
+}
+.footer_about_description {
+    color: #fff;
+    margin-top: 40px;
+}
+.footer_social_icon {
+    color: white;
+    margin-top: 35px;
+    margin-left: -23px;
+}
+.footer_social:last-child {
+    margin-left: 50px;
+    margin-right: 0px;
+}
+.footer_social_icon i {
+    margin-left: 20px;
+    font-size: 25px;
+    cursor: pointer;
+}
+.footer_social_icon i:hover {
+    color: #FFBB02;
+}
+ul.footerLink {
+    list-style: none;
+}
+ul.footerLink li a {
+    color: #fff;
+    margin-top: 15px;
+    display: block;
+    transition: 0.3s;
+}
+ul.footerLink li:hover a {
+    color: #FFBB02;
+    text-decoration: underline;
+}
+.footer_top_bar {
+    overflow: hidden;
+}
+
+.footer_bottom_bar {
+    background: #272727;
+    color: #fff;
+    padding: 20px 0px;
+    margin-top: 60px;
+}
+.footer_buttom_description {
+    font-size: 14px;
+    color: rgb(223, 223, 223);
+}
+.footer_buttom_description a{
+    color: white;
+}
